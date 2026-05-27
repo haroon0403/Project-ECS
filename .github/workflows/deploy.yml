@@ -14,7 +14,7 @@ env:
   ECR_REPOSITORY: demo
   ECS_CLUSTER: ABHI_Cluster
   ECS_SERVICE: flask_app-service-2b5behat
-  ECS_TASK_DEFINITION: task-definition.json
+  ECS_TASK_DEFINITION: flask_app
   CONTAINER_NAME: flask
 
 jobs:
